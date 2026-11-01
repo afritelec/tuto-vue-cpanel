@@ -24,7 +24,7 @@ async function add() {
 <template>
   <main>
     <h1>Mes tâches</h1>
-    <p>Une application Vue et MySQL sur cPanel.</p>
+    <p>Mise à jour déployée avec Git et cPanel.</p>
 
     <form @submit.prevent="add">
       <input v-model="title" placeholder="Nouvelle tâche" required maxlength="255" />
